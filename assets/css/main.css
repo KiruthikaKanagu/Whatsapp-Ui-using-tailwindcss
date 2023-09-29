@@ -1,4 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+    background: url("https: //img.freepik.com/premium-photo/3d-rendering-bunch-square-badges-with-whatsapp-logo-green-background_284880-352.jpg");
+}
