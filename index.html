@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Whatsapp Ui</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+
   <link rel="stylesheet" href="assets/css/output.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="assets/css/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="status.html">
   <link rel="stylesheet" href="call.html">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body
@@ -20,20 +18,20 @@
 
 
 
-  <section class="bg-emerald-700 max-w-md mx-auto rounded-md">
+  <section class="bg-emerald-700 max-w-sm mx-auto h-auto rounded-md">
 
-    <div class="text-white px-3 py-5 flex items-center justify-between">
+    <div class="text-white px-2 py-4 flex items-center justify-between">
       <h4 class="font-semibold text-xl">Whatsapp</h4>
-      <div class="flex space-x-4">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="w-6">
+      <div class="flex space-x-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="w-6 cursor-pointer hover:fill-current hover:text-emerald-600">
           <path fill="currentColor"
             d="M20 4h-3.17L15 2H9L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h4.05l1.83-2h4.24l1.83 2H20v12zM12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5s5-2.24 5-5s-2.24-5-5-5zm0 8c-1.65 0-3-1.35-3-3s1.35-3 3-3s3 1.35 3 3s-1.35 3-3 3z" />
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="fill-current w-6">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="w-6 cursor-pointer hover:fill-current hover:text-emerald-600">
           <path fill="currentColor"
             d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3l-1.4 1.4ZM9.5 14q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z" />
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="fill-current w-6">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="w-6 hover:fill-current hover:text-emerald-600 cursor-pointer">
           <g fill="currentColor">
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M10 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0zm0 7a2 2 0 1 0 4 0a2 2 0 0 0-4 0zm0 7a2 2 0 1 0 4 0a2 2 0 0 0-4 0z"
@@ -43,8 +41,9 @@
       </div>
     </div>
 
-    <ul class="text-white flex items-center justify-between px-3 py-1 space-x-4">
+    <!-- first division -->
 
+    <ul class="text-white flex items-center justify-between px-3 py-1 space-x-3">
 
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="w-6">
@@ -53,144 +52,187 @@
         </svg>
       </li>
 
-      <li class="flex-1 flex items-center justify-between">
-        <div class="font-medium text-sm flex items-center space-x-1 cursor-pointer relative">
+      <li class="flex-1 flex items-center justify-between cursor-pointer">
+        <div class="text-sm flex items-center space-x-2 cursor-pointer relative">
           <a href="index.html">Chats</a>
-          <span
-            class="bg-white text-emerald-700 rounded-full w-5 h-5 text-xs  flex items-center justify-center ">5</span>
+          <span class="bg-white text-emerald-700 rounded-full w-5 h-5 text-xs flex items-center justify-center">10</span>
           <div class="absolute right-1 top-6 bg-white w-full h-1"></div>
         </div>
 
-        <div class="font-medium text-sm flex items-center space-x-1">
+        <div class="font-sm text-sm flex items-center space-x-2 cursor-pointer">
           <a href="status.html">Status</a>
           <span
             class="bg-white text-emerald-700 rounded-full w-5 h-5 text-xs flex items-center justify-center ">3</span>
         </div>
-        <div class="font-medium text-sm flex items-center space-x-1  cursor-pointer">
+        <div class="font-sm text-sm flex items-center space-x-2  cursor-pointer">
           <a href="call.html">Calls</a>
           <span
             class="bg-white text-emerald-700 rounded-full w-5 h-5 text-xs  flex items-center justify-center ">1</span>
-
         </div>
       </li>
     </ul>
 
     <!-- content -->
-    <div class="bg-white  space-y-3 ">
-      <div class="bg-white px-2 py-3 flex space-x-4 items-center hover:bg-gray-100 ">
+    <div class="bg-white  space-y-3 relative">
+
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 ">
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXIEL5bwnv3X7JsyCZagZ972672cFfLCNAlg&usqp=CAU" alt="kk"
+            class="rounded-full w-16 h-16 p-1">
+        </div>
+        <div class="flex-1">
+          <h3 class="text-lg font-normal">Family Meet👨‍👩‍👦</h3>
+          <p class="text-gray-600 text-sm">Bhava:Good mrg</p>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-gray-400 font-medium text-sm">07:00 AM</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+            <path fill="#888888"
+              d="m16 12l2 2v2h-5v6l-1 1l-1-1v-6H6v-2l2-2V5H7V3h10v2h-1v7Zm-7.15 2h6.3L14 12.85V5h-4v7.85L8.85 14ZM12 14Z" />
+          </svg>
+
+        </div>
+      </div>
+
+
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100">
         <div>
           <img src="https://i.pinimg.com/474x/88/25/21/882521a6c1fc9b389949700558a1ab25.jpg" alt="kk"
             class="rounded-full w-16 h-16 p-1">
         </div>
         <div class="flex-1">
-          <h3 class="text-xl">Thala 🔥</h3>
+          <h3 class="text-lg font-normal">Thala 🔥</h3>
           <p class="text-gray-600 text-sm">Ek..How are you?</p>
         </div>
-        <div class="flex flex-col items-center space-y-2">
-          <span class="text-green-600 font-semibold text-sm">07:00 PM</span>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-green-600 font-semibold text-sm">07:00 AM</span>
           <span
-            class="w-6 h-6 p-2 text-sm font-semibold flex items-center justify-center rounded-full bg-green-600 text-white">2</span>
+            class="w-6 h-6 p-2 text-sm font-medium flex items-center justify-center rounded-full bg-green-600 text-white">2</span>
         </div>
       </div>
 
-      <div class="bg-white px-2 py-2 flex space-x-4 items-center hover:bg-gray-100 ">
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 ">
         <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vvKz8nsD_0obmbjbqVNmoJNoHhBLXkuFvw&usqp=CAU"
-            alt="kk" class="rounded-full  w-16 h-16 p-1 border-solid border-2 border-green-600 ">
+          <img src="https://statustan.com/images/statuses/biXE5LJDpzC5XHdtGQvd6PfVAqyVYARfBYD23JAv.jpg"
+            alt="kk" class="rounded-full  w-16 h-16 p-0.5 border-solid border-2 border-green-600 ">
         </div>
         <div class="flex-1">
-          <h3 class="text-xl">Dhoshthu 🤗</h3>
+          <h3 class="text-lg">Dhoshthu 🤗</h3>
           <p class="text-gray-600 text-sm">Dii...Enna pandra?</p>
         </div>
-        <div class="flex flex-col items-center space-y-2">
-          <span class="text-green-600 font-semibold text-sm">07:12 PM</span>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-green-600 font-medium text-sm">07:12 PM</span>
           <span
-            class="w-6 h-6 p-2 text-sm font-semibold flex items-center justify-center rounded-full bg-green-600 text-white">1</span>
+            class="w-6 h-6 p-2 text-sm font-medium flex items-center justify-center rounded-full bg-green-600 text-white">1</span>
         </div>
       </div>
 
-      <div class="bg-white px-2 py-2 flex space-x-4 items-center hover:bg-gray-100 ">
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 ">
         <div>
           <img src="https://i.ytimg.com/vi/zygTO66OSVY/mqdefault.jpg" alt="kk" class="rounded-full  w-16 h-16 p-1">
         </div>
         <div class="flex-1">
-          <h3 class="text-xl">Cringe Us</h3>
+          <h3 class="text-lg">Cringe Us</h3>
           <p class="text-gray-600 text-sm">Mahapa <span class="text-green-600 text-md">Typing..</span></p>
         </div>
-        <div class="flex flex-col items-center space-y-2">
-          <span class="text-green-600 font-semibold text-sm">08:47 PM</span>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-green-600 font-medium text-sm">08:47 PM</span>
           <span
-            class="w-6 h-6 p-2 text-sm font-semibold flex items-center justify-center rounded-full bg-green-600 text-white">1</span>
+            class="w-6 h-6 p-2 text-sm font-semibold flex items-center justify-center rounded-full bg-green-600 text-white">5</span>
         </div>
       </div>
 
-      <div class="bg-white px-1 py-2 flex space-x-4 items-center hover:bg-gray-100 ">
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 ">
         <div>
           <img
             src="data:image/jpeg;base64,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"
-            alt="kk" class="rounded-full  w-16 h-16 p-1">
+            alt="kk" class="rounded-full  w-16 h-16 p-0.5">
         </div>
         <div class="flex-1">
-          <h3 class="text-xl">Amma 💖</h3>
+          <h3 class="text-lg">Amma 💖</h3>
 
-          <p class="text-red-600  text-sm flex"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          <p class="text-red-600 text-sm flex"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
               viewBox="0 0 24 24">
               <path fill="currentColor"
                 d="M23.32 16.67a16.413 16.413 0 0 0-11.31-4.51c-4.39 0-8.37 1.72-11.31 4.51l-.69.69L3.65 21l3.93-2.72l-.01-3.49c1.4-.45 2.9-.7 4.44-.7c1.55 0 3.04.24 4.44.7l-.01 3.49L20.37 21l3.64-3.64c0-.01-.52-.52-.69-.69zM7 6.43l4.94 4.94l7.07-7.07l-1.41-1.42l-5.66 5.66L8.4 5H11V3H5v6h2z" />
-            </svg><span class="ml-2 text-gray-600">Missed voice call</span> </p>
+            </svg><span class="ml-1.5 text-gray-600">Missed voice call</span> </p>
 
         </div>
-        <div class="flex flex-col items-center space-y-2">
-          <span class="text-green-600 font-semibold text-sm">09:30 PM</span>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-green-600 font-medium text-sm">09:30 PM</span>
           <span
             class="w-6 h-6 p-2 text-sm font-semibold flex items-center justify-center rounded-full bg-green-600 text-white">1</span>
         </div>
       </div>
 
-      <div class="bg-white px-1 py-2 flex space-x-4 items-center hover:bg-gray-100 ">
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 ">
         <div>
           <img src="https://i.pinimg.com/474x/8b/57/a8/8b57a85616fcad535ecd85ee1b87b129.jpg" alt="kk"
-            class="rounded-full  w-16 h-16 p-1">
+            class="rounded-full border-solid border-2 border-green-600  w-16 h-16 p-0.5">
         </div>
         <div class="flex-1">
-          <h3 class="text-xl">Udanpirapu</h3>
+          <h3 class="text-lg">Udanpirapu</h3>
           <p class="text-gray-600 text-xs">You reacted 👍🏻 to "Ok"</p>
         </div>
-        <div class="flex flex-col items-center space-y-2">
-          <span class="text-gray-600 font-semibold text-sm">Yesterday</span>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-gray-600 font-medium text-sm">Yesterday</span>
 
         </div>
       </div>
 
-      <div class="bg-white px-2 py-2 flex space-x-4 items-center hover:bg-gray-100 ">
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 ">
         <div>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7gcqPDVp5kOb7jwAEotNgXo_u_CL5RqDnvw&usqp=CAU"
-            alt="kk" class="rounded-full  w-16 h-16 p-1">
+            alt="kk" class="rounded-full  w-16 h-16 p-0.5">
         </div>
         <div class="flex-1">
-          <h3 class="text-xl">Priya Chithi</h3>
+          <h3 class="text-lg">Priya Chithi</h3>
           <p class="text-gray-600 text-sm">😃😊</p>
         </div>
-        <div class="flex flex-col items-center space-y-2">
-          <span class="text-gray-600 font-semibold text-sm">9/27/23</span>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-gray-600 font-medium text-sm">9/27/23</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <path fill="#888888"
+              d="m19.036 20.718l5.933 5.934a1.189 1.189 0 1 0 1.682-1.683L6.83 5.15a1.19 1.19 0 0 0-1.68 1.683L7.318 9H3.803C2.807 9 2 9.847 2 10.892v10.216C2 22.153 2.807 23 3.803 23l4.195.001l8.613 3.83a1.693 1.693 0 0 0 2.425-1.526v-4.587Zm-2-2v6.113l-7.038-3.13V11.68l7.038 7.038ZM22 16.023c0 .504-.122.979-.337 1.397l-4.627-4.627v-5.76l-.03-.001a.38.38 0 0 0-.113.013h-.002l-3.81 1.793l-1.504-1.503l4.47-2.103c1.123-.529 2.989.023 2.989 1.265v6.473A3.055 3.055 0 0 1 22 16.023Z" />
+          </svg>
 
         </div>
       </div>
 
 
-      <div class="bg-white px-2 py-2 flex space-x-4 items-center hover:bg-gray-100 ">
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 ">
         <div>
-          <img src="https://ui-avatars.com/api/?name=Nivetha&background=0D8ABC&color=fff" alt="kk" class="rounded-full">
+          <img src="https://ui-avatars.com/api/?name=Nivetha&background=0D8ABC&color=fff" alt="kk" class="rounded-full border-solid border-2 border-green-600 p-0.5 w-16 h-16">
         </div>
         <div class="flex-1">
-          <h3 class="text-xl">Nivetha🧡</h3>
+          <h3 class="text-lg">Nivetha🧡</h3>
           <p class="text-gray-600 text-sm font-semibold">Mm ok d</p>
         </div>
-        <div class="flex flex-col items-center space-y-2">
-          <span class="text-gray-600 font-semibold text-sm">9/1/23</span>
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-gray-600 font-medium text-sm">9/1/23</span>
 
         </div>
       </div>
+
+      <div class="bg-white px-2 py-1 flex space-x-4 items-center hover:bg-gray-100 pb-3">
+        <div>
+          <img src="https://ui-avatars.com/api/?name=KP&background=#d6b4fc&color=fff" alt="kk" class="rounded-full w-16 h-16 p-0.5">
+        </div>
+        <div class="flex-1">
+          <h3 class="text-lg">Pavi KP</h3>
+          <p class="text-gray-600 text-sm font-semibold">Mm ok d</p>
+        </div>
+
+        <div class="flex flex-col items-center space-y-1">
+          <span class="text-gray-600 font-medium text-sm">9/1/23</span>
+        </div>
+      </div>
+      <div class="bg-emerald-800 absolute bottom-3 right-2  cursor-pointer hover:bg-emerald-900 rounded-full w-12 h-12 p-2 flex justify-center items-center">
+      <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" class="text-white fill-current">
+        <path
+          d="M9 11h9v2H9v-2m9-4H6v2h12V7m4-3v18l-4-4H4a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2m-2 0H4v12h14.83L20 17.17V4Z" />
+      </svg>
+</div>
     </div>
     </div>
   </section>
